@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task1</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts/task2.js"></script>
+    <script src="/examples/libs/ui-components/itc-slider/itc-slider.js" defer></script>
+</head>
+<body>
+    <nav>
+        <div><a href="index.html">ГЛАВНАЯ</a><a href="tasks.html"><u>ЗАДАНИЯ</u></a></div>
+        <div><a href="">НАСТРОЙКИ</a></div>
+    </nav>
+    <div class="box">
+        <H1><span style="color: gray;">|</span> Список заданий</H1>
+    </div>
+    <div>
+        <H1><span style="color: gray;">|</span> Задание 1. Ввод символов</H1>
+        <div class="task">
+            <input type="text" id="symbols" onkeyup="ContLen()">
+            <p id="outputTask1">Количество&nbsp;символов:&nbsp;0</p>
+        </div>
+    </div>
+    <div>
+        <H1><span style="color: gray;">|</span> Задание 2. Ввод текста</H1>
+        <div class="task2">
+            <textarea id="Task2TA" rows="20" cols="30" onkeyup="ContLen2()", ontimeupdate="ContLen2()"></textarea>
+            <p id="Task2Symbols">Количество&nbsp;символов:&nbsp;0</p>
+            <p id="Task2words">Количество&nbsp;слов:&nbsp;0</p>
+            <p id="Task2Rows">Количество&nbsp;строк:&nbsp;0</p>
+        </div>
+    </div>
+    <div>
+        <H1><span style="color: gray;">|</span> Задание 3. Проверка ввода</H1>
+        <div class="task">
+            <input type="text" id="symbols2" onkeyup="ContLen3()">
+            <p id="checkSymbols">Осталось&nbsp;символов:&nbsp;10</p>
+        </div>
+    </div>
+    <div>
+        <H1><span style="color: gray;">|</span> Задание 4. Запрет ввода</H1>
+        <div class="task">
+            <input type="text" id="symbols3" onkeyup="ContLen4()">
+            <input type="checkbox" id="inBlock"> Запрет ввода
+            <p id="checkSymbols2">Осталось&nbsp;символов:&nbsp;10</p>
+        </div>
+    </div>
+    <div>
+        <H1><span style="color: gray;">|</span> Задание 5. Слайдер картинок</H1>
+        <div class="task">
+            <div class="slider-container">
+                <div class="slider">
+                  <img src="https://i.postimg.cc/nhsTGkLQ/1.png" alt="Белый пушистый кот">
+                  <img src="https://i.postimg.cc/cLVh9nKk/2.png" alt="Рыжий пушистый кот в джинсах">
+                  <img src="https://i.postimg.cc/4NxWmZkP/3.png" alt="Бело-рыжий пушистый кот">
+                  <img src="https://i.postimg.cc/FFZPrzq1/8.png" alt="Золотистый пушистый кот">
+                  <img src="https://i.postimg.cc/jd3Zf9Rb/7.png" alt="Золотистый пушистый кот">
+                </div>
+                <button class="prev-button" aria-label="Посмотреть предыдущий слайд">&lt;</button>
+                <button class="next-button" aria-label="Посмотреть следующий слайд">&gt</button>
+              </div>
+              
+              <script src="scripts/itc-slider.js"></script>
+        </div>
+    </div>
+    <div>
+        <H1><span style="color: gray;">|</span> Задание 6. Разность дат</H1>
+        <div class="task">
+            <p id="toDay"><i>Сегодня:</i> </p>
+            <script>dates()</script>
+            <p onchange="raznost()">Дата события: <select onchange="raznost()" name="" id="days"></select> День <select onchange="initialize()" name="" id="month">
+                <option value="1">Январь</option>
+                <option value="2">Февраль</option>
+                <option value="3">Март</option>
+                <option value="4">Апрель</option>
+                <option value="5">Май</option>
+                <option value="6">Июнь</option>
+                <option value="7">Июль</option>
+                <option value="8">Август</option>
+                <option value="9">Сентябрь</option>
+                <option value="10">Октябрь</option>
+                <option value="11">Ноябрь</option>
+                <option value="12">Декабрь</option>
+            </select> Месяц <select onchange="raznost()" name="" id="year"></select> Год</p>
+            <p id="result">Разность дат:</p>
+        </div>
+        <script>initialize()</script>
+        <script>yearsint()</script>
+    </div>
+    <H1><span style="color: gray;">|</span> Задание 7. Прямоугольник</H1>
+        <div class="RecContainer">
+            <div id ="recTangle" class="recTangle"></div>
+        </div>
+</body>
+<script src="scripts/task2.js"></script>
+</html>
