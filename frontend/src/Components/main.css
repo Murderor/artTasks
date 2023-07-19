@@ -1,0 +1,17 @@
+.logo-sub-office {
+    vertical-align: sub;
+    font-size: 15px;
+    font-style: italic;
+    margin-left: -8px;
+}
+.addEmployee{
+    display: flow;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.itr{
+    padding: 10px;
+    margin: 10px;
+}
+
