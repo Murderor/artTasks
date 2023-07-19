@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import '../Components/main.css'
 import '../Components/office-plan.css'
 import '../Components/bootstrap-theme.css'
@@ -17,9 +17,15 @@ const Employees = () => {
             console.log(e)
         }
     }
+    useEffect(() => {
+        let ignore = false;
+
+        if (!ignore)  fetchEmp()
+        return () => { ignore = true; }
+    },[]);
 
     const [employees, setEmployees] = useState([
-        {id:1, name:"Mark", technology:"JS", workspace:1},
+        {id:"Loading...", name:"Loading...", technology:"Loading...", workspace:"Loading..."},
     ])
     return (
         <main className="mt-3">
@@ -70,12 +76,11 @@ const Employees = () => {
                         <td>{employee.name}</td>
                         <td>{employee.technology}</td>
                         <td>{employee.workspace}</td>
-                        <td><a href={"/employee/id"+employee.id}>more</a></td>
+                        <td><a href={"/employee/more?id="+employee.id}>more</a></td>
                     </tr>
                     )}
                     </tbody>
                 </table>
-                <button onClick={fetchEmp}>TEST!</button>
             </div>
         </main>
     );
