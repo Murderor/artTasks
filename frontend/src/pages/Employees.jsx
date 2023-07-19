@@ -4,14 +4,23 @@ import '../Components/office-plan.css'
 import '../Components/bootstrap-theme.css'
 import {Link, Route} from "react-router-dom";
 import addEmployee from "./addEmployee";
+import axios from "axios";
 const Employees = () => {
+
+    async function fetchEmp(){
+        try {
+            const res = axios.get('http://localhost:5000/api/employee/')
+            console.log((await res).data)
+            setEmployees((await res).data)
+        }
+        catch (e){
+            console.log(e)
+        }
+    }
 
     const [employees, setEmployees] = useState([
         {id:1, name:"Mark", technology:"JS", workspace:1},
-        {id:2, name:"Jacob S", technology:".Net", workspace:2}
     ])
-
-
     return (
         <main className="mt-3">
             <div className="container">
@@ -66,6 +75,7 @@ const Employees = () => {
                     )}
                     </tbody>
                 </table>
+                <button onClick={fetchEmp}>TEST!</button>
             </div>
         </main>
     );
