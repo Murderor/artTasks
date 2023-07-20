@@ -5,29 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a0076c4-6d0f-4593-a640-e9d0a7664fe5" name="Changes" comment="dev">
-      <change afterPath="$PROJECT_DIR$/Backend/static/0f99058a-ff50-4ffd-8283-e3559ad57952.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/static/57280958-97fe-4804-bece-c00a58e4d1c0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/static/9afd4093-0d1c-4dc1-a40e-276b00ab972c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/static/a1383368-30e5-4d76-8884-128a33e985bb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/static/b9522ba2-a252-41d5-b179-840dab60aa79.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/static/d3ce19a1-384b-4396-8396-882be10ca316.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/images/scoped_dir30780_4982636/AnyDesk.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/InfoEmployeePage.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/static/872df2fb-21a3-4b93-bb92-92ddad4bbcd6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/static/8b9ec45f-3428-4f05-9c3a-b57d3a8e6346.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/.env" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/node_modules/.cache/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/0.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/1.pack" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/1.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/2.pack" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/2.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/3.pack" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/3.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/4.pack" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/4.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/5.pack" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/5.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/6.pack" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/6.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/index.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/index.pack.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Employees.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Employees.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/about.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/about.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/addEmployee.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/addEmployee.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/InfoEmployeePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/InfoEmployeePage.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +98,7 @@
       <workItem from="1689786519098" duration="1265000" />
       <workItem from="1689788515570" duration="5342000" />
       <workItem from="1689797566652" duration="3787000" />
-      <workItem from="1689835472872" duration="37882000" />
+      <workItem from="1689835472872" duration="38226000" />
     </task>
     <task id="LOCAL-00001" summary="dev">
       <option name="closed" value="true" />
@@ -211,7 +196,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689871080998</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="dev">
+      <option name="closed" value="true" />
+      <created>1689877033174</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1689877033174</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
