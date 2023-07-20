@@ -4,6 +4,7 @@ import Employees from "./pages/Employees";
 import Navibar from "./Components/NaviBar";
 import addEmployee from "./pages/addEmployee";
 import about from "./pages/about";
+import {InfoEmployeePage} from "./pages/InfoEmployeePage";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
             <Route path='/' Component={Home}></Route>
             <Route path='/employee' Component={Employees}></Route>
             <Route path='employee/add' Component={addEmployee}/>
-            <Route path='employee/more' Component={about}/>
+            <Route path='employee/more' Component={InfoEmployeePage}/>
         </Routes>
     </BrowserRouter>
   );

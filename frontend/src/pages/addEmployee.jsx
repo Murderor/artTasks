@@ -40,7 +40,7 @@ const AddEmployee = () => {
             <br/>
             <input className={"itr"} type={"file"} placeholder={"аватар"} ref={imgRef}/>
             <br/>
-            <a><Button className={"itr"} onClick={sub}>Create</Button></a>
+            <a href={"/employee"}><Button className={"itr"} onClick={sub}>Create</Button></a>
         </div>
     );
 };

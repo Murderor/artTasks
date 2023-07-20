@@ -23,7 +23,6 @@ const About = () => {
     async function loadEmp() {
         try {
             const url = process.env.REACT_APP_API_URL
-            const data = {"id": `${id}`}
             const res = axios.get(`${url}/api/employee/`,{headers:{
                 "id":`${id}`
                 }})

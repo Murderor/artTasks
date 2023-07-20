@@ -26,7 +26,7 @@ const Employees = () => {
     },[]);
 
     const [employees, setEmployees] = useState([
-        {id:"Loading...", name:"Loading...", technology:"Loading...", workspace:"Loading..."},
+        {id:"Loading...", name:"Loading...", technology:"Loading...", workspace:"Loading..."}
     ])
     return (
         <main className="mt-3">
