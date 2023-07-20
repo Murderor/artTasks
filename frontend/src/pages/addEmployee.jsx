@@ -23,7 +23,9 @@ const AddEmployee = () => {
         bodyForm.append("technology", techRef.current.value)
         bodyForm.append("workspace", workRef.current.value)
         bodyForm.append("possition", posRef.current.value)
-        bodyForm.append("img",document.querySelector('input[type=file]').files[0], "dfdf.jpg")
+        if(document.querySelector('input[type=file]').files[0]){
+            bodyForm.append("img",document.querySelector('input[type=file]').files[0], "dfdf.jpg")
+        }
         axios.post(`${url}/api/employee/`,bodyForm )
     }
 
