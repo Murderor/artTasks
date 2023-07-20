@@ -1,27 +1,30 @@
-import React, {useRef} from 'react';
+import React, {useRef, useState} from 'react';
 import '../Components/main.css'
 import '../Components/office-plan.css'
 import '../Components/bootstrap-theme.css'
 import {Button} from "react-bootstrap";
 import axios from "axios";
 const AddEmployee = () => {
+
+    const url = process.env.REACT_APP_API_URL
     const nameRef = useRef()
     const techRef = useRef()
     const  workRef = useRef()
+    const posRef = useRef()
+    const imgRef = useRef()
     function test(tes){
         console.log("works " + tes.current.value)
     }
 
     function sub(){
-        axios.post('http://localhost:5000/api/employee/', {
-            "name": `${nameRef.current.value}`,
-            "technology": `${techRef.current.value}`,
-            "workspace": `${workRef.current.value}`
-        }).then(r =>{
-            console.log("Good")
-        }).catch(e=>{
-            console.log(e)
-        })
+        const im = new Image(imgRef.current.value)
+        let bodyForm = new FormData()
+        bodyForm.append("name",nameRef.current.value)
+        bodyForm.append("technology", techRef.current.value)
+        bodyForm.append("workspace", workRef.current.value)
+        bodyForm.append("possition", posRef.current.value)
+        bodyForm.append("img",document.querySelector('input[type=file]').files[0], "dfdf.jpg")
+        axios.post(`${url}/api/employee/`,bodyForm )
     }
 
     return (
@@ -33,9 +36,11 @@ const AddEmployee = () => {
             <br/>
             <input className={"itr"} type={"text"} placeholder={"Workspace"} ref={workRef}/>
             <br/>
-            <input className={"itr"} type={"file"} placeholder={"аватар"}/>
+            <input className={"itr"} type={"text"} placeholder={"Possition"} ref={posRef}/>
             <br/>
-            <a href={'/employee'}><Button className={"itr"} onClick={sub}>Create</Button></a>
+            <input className={"itr"} type={"file"} placeholder={"аватар"} ref={imgRef}/>
+            <br/>
+            <a><Button className={"itr"} onClick={sub}>Create</Button></a>
         </div>
     );
 };

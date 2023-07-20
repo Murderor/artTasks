@@ -1,0 +1,6 @@
+{
+    "name":`${nameRef.current.value}`,
+    "technology":`${techRef.current.value}`,
+    "workspace":`${workRef.current.value}`,
+    "possition":`${posRef.current.value}`
+}

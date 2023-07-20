@@ -7,9 +7,10 @@ import addEmployee from "./addEmployee";
 import axios from "axios";
 const Employees = () => {
 
+    const url = process.env.REACT_APP_API_URL
     async function fetchEmp(){
         try {
-            const res = axios.get('http://localhost:5000/api/employee/')
+            const res = axios.get(`${url}/api/employee/`)
             console.log((await res).data)
             setEmployees((await res).data)
         }

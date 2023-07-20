@@ -1,0 +1,26 @@
+.aboutContainer{
+    border-width: 2px;
+    border-color: black;
+    border-radius: 2px;
+    display: flex;
+    margin: 0px;
+}
+.leftSide{
+    margin-top: 10px;
+    width: 33%;
+    text-align: center;
+}
+.middleSide{
+    margin-top: 80px;
+    width: 40%;
+    margin-left: 40px;
+}
+.rightSide{
+    margin-top: 10px;
+    text-align: center;
+    width: 10%
+}
+.item{
+    font-size: 20px;
+    margin-left: 20px;
+}
