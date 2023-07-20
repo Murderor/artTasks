@@ -112,7 +112,7 @@ export const InfoEmployeePage = () => {
         </div>
         <div className="row mt-1 mb-1">
           <div className="col-3">
-            <p className=" text-end fw-bold">Employes since</p>
+            <p className=" text-end fw-bold">Employed since</p>
           </div>
           <div className="col-3 d-flex flex-row">
             <span>{employed_since}</span>
