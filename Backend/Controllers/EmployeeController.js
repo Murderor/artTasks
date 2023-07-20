@@ -38,5 +38,26 @@ class EmployeeController{
             res.json(emp)
         }
     }
+    async editEmployee(req, res){
+
+        try {
+            const id = req.headers.id;
+            if(id){
+                const emp = await Employee.findAll
+                const {name,technology, workspace,possition} = req.body
+                const {img} = req.files
+                let filename = uuid.v4() + ".jpg"
+                console.log(req.body)
+                await img.mv(path.resolve(__dirname, '..', 'static', filename))
+                Employee.update({name,technology, workspace,possition, img:filename},{where:{id:id}})
+
+                res.json(emp)
+            }
+        }
+        catch (e){
+            console.log("huy")
+            console.log(e)
+        }
+    }
 }
 module.exports = new EmployeeController()

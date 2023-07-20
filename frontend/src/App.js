@@ -5,6 +5,7 @@ import Navibar from "./Components/NaviBar";
 import addEmployee from "./pages/addEmployee";
 import about from "./pages/about";
 import {InfoEmployeePage} from "./pages/InfoEmployeePage";
+import {EditEmployeePage} from "./pages/EditEmployeePage";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             <Route path='/employee' Component={Employees}></Route>
             <Route path='employee/add' Component={addEmployee}/>
             <Route path='employee/more' Component={InfoEmployeePage}/>
+            <Route path='employee/edit' Component={EditEmployeePage}/>
         </Routes>
     </BrowserRouter>
   );

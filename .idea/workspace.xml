@@ -5,20 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a0076c4-6d0f-4593-a640-e9d0a7664fe5" name="Changes" comment="dev">
-      <change afterPath="$PROJECT_DIR$/Backend/static/201ebdd1-0404-41de-960a-788428ca1eb7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/static/8efe4d4c-d15e-4ae6-ae36-03eae8b02c51.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/static/a80a4850-c8b7-4356-96b7-0deb2a01826e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/static/b582605f-f46b-4939-9b24-b03af2a1de0e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/static/06c1f3e3-3177-44d9-b440-5ff28ac22783.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/static/0e9ab097-a616-4d1b-85e6-eefbd87571ef.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/static/382a83bb-bc65-4ec5-a824-38de14abcb69.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/static/3aa4053c-9588-4853-891c-14364f68cfd1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/static/5a1ebc80-da8e-4bce-8e27-8ae8f3bc58e7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/static/615dbbce-3707-4048-b640-d0fb2db327aa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/static/700fedc0-4993-4001-9e47-5fd8dc1eaa58.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/static/7802390d-2f23-4d41-a1b6-c2ed7eb59e1e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/static/78f04e55-7129-40c3-84da-a033bbe403bd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/static/8d70be20-33bc-4a4a-b79a-2aa263a3899c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/static/9efb9f66-f19a-4652-8755-20508042f34a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/static/a63d6ae9-993b-4e05-b927-78c8e5ff9248.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/static/b21b1958-3502-456f-84d0-947aa623c878.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/static/bd87fdf5-e7d1-405f-96ad-1ea4776644c9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/static/bda0c9e4-0361-4d0e-a574-1d3afce8ef12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/static/ea0d2bcf-f965-4d16-b9de-b89a5ab55d1c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/EditEmployeePage.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Controllers/EmployeeController.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Controllers/EmployeeController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/routes/employeeRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/routes/employeeRouter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/node_modules/.cache/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/0.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/1.pack" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/1.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/10.pack" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/10.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/11.pack" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/11.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/12.pack" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/12.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/13.pack" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/13.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/14.pack" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/14.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/2.pack" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/2.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/3.pack" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/3.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/4.pack" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/4.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/5.pack" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/5.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/6.pack" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/6.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/7.pack" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/7.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/8.pack" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/8.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/9.pack" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/9.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/index.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/index.pack.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/addEmployee.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/addEmployee.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/InfoEmployeePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/InfoEmployeePage.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +131,7 @@
       <workItem from="1689797566652" duration="3787000" />
       <workItem from="1689835472872" duration="38226000" />
       <workItem from="1689877852027" duration="256000" />
-      <workItem from="1689882147322" duration="1736000" />
+      <workItem from="1689882147322" duration="8468000" />
     </task>
     <task id="LOCAL-00001" summary="dev">
       <option name="closed" value="true" />
@@ -212,7 +237,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689877033174</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="dev">
+      <option name="closed" value="true" />
+      <created>1689884044067</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1689884044067</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
