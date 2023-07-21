@@ -32,6 +32,8 @@ export const EditEmployeePage = () => {
   const [employed_since, setEmployed_since] = useState(["unknown"])
   const [avat, setAvat] = useState([pic])
 
+  let res2
+
   async function loadEmp() {
     try {
       const url = process.env.REACT_APP_API_URL
@@ -41,8 +43,13 @@ export const EditEmployeePage = () => {
       setName((await res).data.name)
       setTechnology((await res).data.technology)
       setWorkspace((await res).data.workspace)
-      setEmployed_since((await res).data.createdAt)
+      setEmployed_since((await res).data.employed)
       setPosition((await res).data.possition)
+
+      document.getElementById("name").value=(await res).data.name
+      document.getElementById("possition").value=(await res).data.possition
+      document.getElementById("workspace").value=(await res).data.workspace
+      document.getElementById("tech").value=(await res).data.technology
     } catch (e) {
 
     }
@@ -61,6 +68,7 @@ export const EditEmployeePage = () => {
       const res = axios.put(`${url}/api/employee/`,data,{headers:{"id":`${id}`}})
       loadEmp()
       loadAvatar()
+      window.location.reload()
     }
     catch (e){
       console.log(e)
@@ -73,6 +81,7 @@ export const EditEmployeePage = () => {
       const res = axios.get(`${url}/api/employee/`,{headers:{
           "id":`${id}`
         }})
+      res2 = res
       const imName = (await res).data.img
       if(imName){
         setAvat(`${url}/image/${imName}`)
@@ -114,7 +123,7 @@ export const EditEmployeePage = () => {
     <div className="col-8">
       <form>
         <div className="d-flex justify-content-end">
-          <a href="/info/:id" className="btn btn-outline-dark me-1">Cancel</a>
+          <a href={"#"} className="btn btn-outline-dark me-1">Cancel</a>
           <button className="btn btn-primary" type="button" onClick={editEmp}>Save</button>
         </div>
         <div className="row mt-4">
@@ -122,7 +131,7 @@ export const EditEmployeePage = () => {
             <p className="form-label fs-5">Name</p>
           </div>
           <div className="col-10">
-            <input type="text" className="form-control" maxlength="200" ref={nameRef} placeholder={name}/>
+            <input type="text" className="form-control" maxlength="200" id={"name"} ref={nameRef} placeholder={name}/>
           </div>
         </div>
         <div className="row mt-4">
@@ -130,7 +139,7 @@ export const EditEmployeePage = () => {
             <p className="form-label fs-5">Technology</p>
           </div>
           <div className="col-10">
-            <select class="form-select" ref={techRef}>
+            <select class="form-select" id={"tech"} ref={techRef}>
               <option>Java</option>
               <option>JavaScript</option>
               <option>.NET</option>
@@ -143,7 +152,7 @@ export const EditEmployeePage = () => {
             <p className="form-label fs-5">Position</p>
           </div>
           <div className="col-10">
-            <input type="text" className="form-control" maxlength="100" placeholder={position} ref={posRef}/>
+            <input type="text" className="form-control" maxlength="100" id={"possition"} placeholder={position} ref={posRef}/>
           </div>
         </div>
         <div className="row mt-4">
@@ -151,7 +160,7 @@ export const EditEmployeePage = () => {
             <p className="form-label fs-5">Workspace</p>
           </div>
           <div className="col-2">
-            <select class="form-select" ref={workRef}>
+            <select class="form-select" ref={workRef} id={"workspace"}>
               <option>1</option>
               <option>2</option>
               <option>3</option>

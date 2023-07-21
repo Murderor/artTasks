@@ -5,20 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a0076c4-6d0f-4593-a640-e9d0a7664fe5" name="Changes" comment="dev">
-      <change afterPath="$PROJECT_DIR$/Backend/static/191629a7-ebe5-467a-a9fa-9d6f251bd9e6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/static/37409480-018e-49b5-a340-1c96c4428b94.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/static/6e1d065b-8285-4423-b6f1-adcdb56017d6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/static/846d0723-4e46-4522-9a38-2eb7326936b0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/static/e60d287d-8a2e-46d1-abae-53b5e221a57a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/static/ed540f0f-60a1-4589-adff-8471953620bf.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/.env" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/.env" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Controllers/EmployeeController.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Controllers/EmployeeController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/models/models.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/models/models.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/static/191629a7-ebe5-467a-a9fa-9d6f251bd9e6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/static/37409480-018e-49b5-a340-1c96c4428b94.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/static/6e1d065b-8285-4423-b6f1-adcdb56017d6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/static/846d0723-4e46-4522-9a38-2eb7326936b0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/static/b188dd0d-a22b-4ad7-9750-5703ebc4f80a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/static/e60d287d-8a2e-46d1-abae-53b5e221a57a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/static/ed540f0f-60a1-4589-adff-8471953620bf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/node_modules/.cache/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/0.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/1.pack" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/1.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/2.pack" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/2.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/3.pack" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/3.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/4.pack" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/4.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/5.pack" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/5.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/6.pack" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/6.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/7.pack" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/7.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/8.pack" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/8.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/index.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/index.pack.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/EditEmployeePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/EditEmployeePage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/InfoEmployeePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/InfoEmployeePage.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,28 +63,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/Projects/JS/test/Tasks",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "ts.external.directory.path": "D:\\Utilities\\WebStorm 2023.1.3\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projects/JS/test/Tasks&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\Utilities\\WebStorm 2023.1.3\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Projects\office_artezio" />
@@ -108,6 +118,7 @@
       <workItem from="1689877852027" duration="256000" />
       <workItem from="1689882147322" duration="9037000" />
       <workItem from="1689926980932" duration="1153000" />
+      <workItem from="1689928691909" duration="4554000" />
     </task>
     <task id="LOCAL-00001" summary="dev">
       <option name="closed" value="true" />

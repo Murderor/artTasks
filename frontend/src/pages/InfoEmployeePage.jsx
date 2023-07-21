@@ -19,6 +19,8 @@ export const InfoEmployeePage = () => {
   const [employed_since, setEmployed_since] = useState(["unknown"])
   const [avat, setAvat] = useState([pic])
 
+  var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+
   async function loadEmp() {
     try {
       const url = process.env.REACT_APP_API_URL
@@ -28,7 +30,7 @@ export const InfoEmployeePage = () => {
       setName((await res).data.name)
       setTechnology((await res).data.technology)
       setWorkspace((await res).data.workspace)
-      setEmployed_since((await res).data.createdAt)
+      setEmployed_since((await res).data.employed)
       setPosition((await res).data.possition)
     } catch (e) {
 

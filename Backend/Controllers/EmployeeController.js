@@ -9,13 +9,19 @@ class EmployeeController{
                 const {img} = req.files
                 let filename = uuid.v4() + ".jpg"
                 await img.mv(path.resolve(__dirname, '..', 'static', filename))
-                const emp = await Employee.create({name,technology,workspace, possition, img:filename})
+                var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+                var today  = new Date();
+                var strDate = today.toLocaleDateString("en-US", options)
+                const emp = await Employee.create({name,technology,workspace, possition, img:filename, employed:strDate})
                 res.json(emp)
             }
             else {
                 const {name, technology, workspace, possition} = req.body
                 console.log(req.body)
-                const emp = await Employee.create({name:name,technology:technology,workspace:workspace, possition:possition})
+                var options = {year: 'numeric', month: 'long', day: 'numeric' };
+                var today  = new Date()
+                var strDate = today.toLocaleDateString("en-EN", options)
+                const emp = await Employee.create({name:name,technology:technology,workspace:workspace, possition:possition, employed:strDate})
                 res.json(emp)
             }
         }
@@ -42,7 +48,7 @@ class EmployeeController{
 
         try {
             const id = req.headers.id;
-            if(id){
+            if(id && req.files){
                 const emp = await Employee.findAll
                 const {name,technology, workspace,possition} = req.body
                 const {img} = req.files
@@ -52,6 +58,13 @@ class EmployeeController{
                 Employee.update({name,technology, workspace,possition, img:filename},{where:{id:id}})
 
                 res.json(emp)
+            }
+            else
+            {
+                const emp = await Employee.findAll
+                const {name,technology, workspace,possition} = req.body
+                console.log(req.body)
+                Employee.update({name,technology, workspace,possition},{where:{id:id}})
             }
         }
         catch (e){

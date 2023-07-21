@@ -7,7 +7,8 @@ const Employee = sequelize.define('employee',{
     technology:{type:DataTypes.STRING, allowNull: false},
     workspace:{type:DataTypes.STRING, allowNull:true},
     possition:{type:DataTypes.STRING, allowNull:false},
-    img:{type:DataTypes.STRING, allowNull:true}
+    img:{type:DataTypes.STRING, allowNull:true},
+    employed:{type:DataTypes.STRING, allowNull:false}
 })
 
 module.exports={
