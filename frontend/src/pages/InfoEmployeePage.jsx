@@ -109,7 +109,7 @@ export const InfoEmployeePage = () => {
           <div className="col-5 d-flex flex-row">
             <p>#</p>
             <p>{workspace}</p>
-            <a className="ms-1" href="#">&lt;Choose on the plan&gt;</a>
+            <a className="ms-1" href={`/office_plan?workspace=${workspace}`}>&lt;Choose on the plan&gt;</a>
           </div>
         </div>
         <div className="row mt-1 mb-1">

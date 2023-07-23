@@ -17,7 +17,7 @@ const NaviBar = () => {
             </div>
             <ul className="navbar-nav me-auto">
                 <li className="nav-item">
-                    <a className="nav-link" aria-current="page" href="#">Office Plan</a>
+                    <a className="nav-link" aria-current="page" href="/office_plan">Office Plan</a>
                 </li>
                 <li className="nav-item">
                     <a className="nav-link" href="/employee">Employees</a>

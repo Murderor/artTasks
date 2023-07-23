@@ -49,8 +49,8 @@
  */
 
 .room-switcher {
+    display: none;
     justify-content: center;
-    display: flex;
     flex-direction: column;
 
     margin: 0 50px 0 10px
@@ -68,4 +68,11 @@
 
 .to-bottom-room:hover {
     color: #585858;
+}
+.ws_info{
+    margin-left: 40px;
+    margin-top: 100px;
+}
+.left_info{
+    text-align: center;
 }

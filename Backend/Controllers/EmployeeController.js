@@ -9,7 +9,7 @@ class EmployeeController{
                 const {img} = req.files
                 let filename = uuid.v4() + ".jpg"
                 await img.mv(path.resolve(__dirname, '..', 'static', filename))
-                var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+                var options = {year: 'numeric', month: 'long', day: 'numeric' };
                 var today  = new Date();
                 var strDate = today.toLocaleDateString("en-US", options)
                 const emp = await Employee.create({name,technology,workspace, possition, img:filename, employed:strDate})
@@ -34,13 +34,18 @@ class EmployeeController{
 
     async getEmployees(req, res) {
         const id = req.headers.id;
-        if(!id){
-            const emp = await Employee.findAll()
+        const ws = req.headers.workspace;
+        if(id){
+            const emp = await Employee.findByPk(id)
+            res.json(emp)
+        }
+        else if(ws){
+            const emp = await Employee.findOne({where:{workspace:ws}})
             res.json(emp)
         }
         else
         {
-            const emp = await Employee.findByPk(id)
+            const emp = await Employee.findAll()
             res.json(emp)
         }
     }
